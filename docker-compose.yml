@@ -40,7 +40,7 @@ services:
       - app_network
     depends_on:
       - java_apps
-
+### Angular Apps
   angular_apps:
     container_name: angular_apps
     image: angular-app:1.0.0
